@@ -1,0 +1,40 @@
+body {background-color: white; color: black;
+    font-family: Arial, Helvetica, sans-serif; 
+    }
+header.bookshelf .navbar {   margin-bottom: 0px; }   
+    
+footer{
+    background-color: #F2F2F2; 
+    padding-top: 10px;
+}
+footer p {text-align: center;
+}
+table#listing {
+    width: 100%;
+}
+table#listing th {
+    background-color: #E7E7E7;
+    padding:10px;
+    text-align: center;
+    border: solid 1px white;
+}
+table#listing td {
+    padding:5px;
+    border: solid 1px #E7E7E7;
+    font-size: 14px;
+}
+table#listing td:first-child {
+    width: 60%;
+}
+table#listing td:last-child {
+    text-align: center;
+}
+table#listing td img {
+    height: 50%;
+}
+aside { margin-top: 25px;}
+aside img {width: 200px;}
+section {
+    margin-bottom: 20px; 
+    padding-bottom: 20px;
+}

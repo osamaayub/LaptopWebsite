@@ -1,0 +1,85 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<html lang="en">
+<head>
+    <link rel="stylesheet" 
+    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" 
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" 
+    crossorigin="anonymous"> 
+    <link rel="stylesheet" 
+        href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">       
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="scripts.js"></script>
+    <title>Bookshelf</title>
+</head>
+    <body>
+        <header class="bookshelf">
+            <!-- https://getbootstrap.com/docs/3.3/components/#navbar -->
+            <nav class="navbar navbar-default">
+                    <div class="container-fluid" id>
+                      <!-- Brand and toggle get grouped for better mobile display -->
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Bookshell</a>
+                      </div>
+                  
+                      <!-- Collect the nav links, forms, and other content for toggling -->
+                      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav" id="booktype">
+                          <li class="active"><a href="#"><span class="btype">Kindle</span></a></li>
+                          <li><a href="#" ><span class="btype">Audible</span></a></li>
+                          <li><a href="#"><span class="btype">Both</span></a></li>
+                        </ul>
+
+                        <ul class="nav navbar-nav navbar-right">
+                          <li><a href="http://tminina.mtz.ca">About</a></li>
+                          <li><a href="http://mtz.ca/contact-us/">Contact Us</a></li>
+                        </ul>
+                      </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                  </nav>
+        </header>  
+          
+       <section  class="container" >
+          <div class="wrapper row">
+         <div class="col-sm-9" id="content">
+           <h1>Book listing</h1>
+           <h2>Kindle</h2>
+           <table id="listing">
+             <thead>
+               <tr>
+                 <th>Title</th>
+                 <th>Author</th>
+                 <th>Image</th>
+               </tr>
+             </thead>
+             <tbody>
+             </tbody>
+           </table>
+          </div>
+          <aside class="col-sm-2"><a href="http://mtz.ca/wd/"><img 
+            src="images/ad.jpg" /></a></aside> 
+          </div>  
+       </section>
+       <footer  class="footer  navbar-fixed-bottom">
+         <p>This page is used in the  <a href="http://mtz.ca/fed/"
+          target="_blank">Introduction to the Front-End Development</a> course at 
+          <a href="https://udemy.com">Udemy.com</a>
+         </p>
+        </footer>
+
+       <!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" 
+      integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" 
+      crossorigin="anonymous"></script>
+ 
+
+    </body>
+</html>
